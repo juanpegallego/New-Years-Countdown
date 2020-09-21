@@ -1,0 +1,78 @@
+body{
+display: flex;
+justify-content: center;
+align-content: center;
+height: 100vh;
+top: 50%;
+left: 50%;
+background-image: linear-gradient(to left top, #12243f, #1c2852, #312a63, #4c2770, #6b1c76);
+margin: 0;
+min-height: 100vh;
+}
+
+.containerClock {
+position: absolute;
+top: 50%;
+display: inline;
+background-color: #000;
+color: rgb(219, 203, 203);
+font-family: 'PT Sans', sans-serif;
+
+
+
+}
+
+.container {
+    display: inline;
+    padding:5px;
+    font-size: 50px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    
+	
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1)
+    
+}
+
+p {
+    display: inline;
+    font-size: 12px;
+    color: white;
+    
+}
+
+h1 {font-family: Poppins, sans-serif;
+    font-size: 60px;
+    color: rgb(221, 228, 241);
+    margin-top: 4%;
+    
+}
+
+
+
+
+
+.heart {
+    position: fixed;
+    top: -1vh;
+    font-size: 2rem;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    color: rgb(123, 189, 209);
+
+
+}
+
+@keyframes fall{
+    to {transform: translateY(105vh);}
+}
